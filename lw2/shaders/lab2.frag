@@ -43,7 +43,7 @@ layout(std430, set = 0, binding = 2) buffer SpotLightsBuffer {
 };
 
 // ============================================================================
-// ФУНКЦИЯ БЛИНН-ФОНГА 
+// ФУНКЦИЯ БЛИНН-ФОНГА (Требование на 3)
 // ============================================================================
 vec3 blinn_phong(vec3 N, vec3 L, vec3 V, vec3 intensity,
                  vec3 albedo, vec3 spec_color, float shininess) {
